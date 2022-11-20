@@ -9,7 +9,7 @@ stages = art.stages
 word_list=word.word_list
 end_of_game = False
 
-randomNumber = random.randint(0,2)
+randomNumber = random.randint(0,len(word_list)-1)
 chosen_word=word_list[randomNumber]
 lives=6
 display=[]
